@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Uncommon HTML Bug Solution</title>
+</head>
+<body>
+  <div id="myDiv">
+    This text should be cleared.
+  </div>
+  <script>
+    // Correctly setting innerHTML to an empty string
+    document.getElementById("myDiv").innerHTML = "";
+  </script>
+</body>
+</html>
